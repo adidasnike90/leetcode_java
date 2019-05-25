@@ -1,3 +1,11 @@
+/*
+Group: array
+Level: easy
+
+Runtime: 1 ms, faster than 99.78% of Java online submissions for Remove Duplicates from Sorted Array.
+Memory Usage: 38.7 MB, less than 99.71% of Java online submissions for Remove Duplicates from Sorted Array.
+*/
+
 class Solution {
     public int removeDuplicates(int[] nums) {
         int idx = 1;
@@ -9,8 +17,3 @@ class Solution {
         return idx;
     }
 }
-
-/*
-Runtime: 1 ms, faster than 99.78% of Java online submissions for Remove Duplicates from Sorted Array.
-Memory Usage: 38.7 MB, less than 99.71% of Java online submissions for Remove Duplicates from Sorted Array.
-*/
